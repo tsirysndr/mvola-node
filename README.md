@@ -11,24 +11,81 @@
     <img alt="License: MIT" src="https://img.shields.io/github/license/tsirysndr/MVola Node.js Library" />
   </a>
   <a href="https://twitter.com/tsiry_sndr" target="_blank">
-    <img alt="Twitter: tsiry\_sndr" src="https://img.shields.io/twitter/follow/tsiry_sndr.svg?style=social" />
+    <img alt="Twitter: tsiry_sndr" src="https://img.shields.io/twitter/follow/tsiry_sndr.svg?style=social" />
   </a>
 </p>
 
 The MVola Node library provides convenient access to the [MVola API](https://www.mvola.mg/devportal) from applications written in server-side Javascript 
 
-### 🏠 [Homepage](https://github.com/tsirysndr/mvola-node#readme)
-
-## Install
+## 🚚 Install
 
 ```sh
 yarn add mvola
 ```
 
-## Run tests
+## 🚀 Usage
 
-```sh
-yarn run test
+```typescript
+import { Client, SANDBOX_URL, TransactionRequest } from "mvola";
+import { v4 } from "uuid";
+
+async function main() {
+  const consumerKey = process.env.CONSUMER_KEY;
+  const consumerSecret = process.env.CONSUMER_SECRET;
+  const mvola = new Client(SANDBOX_URL);
+  const data = await mvola.auth.generateToken(consumerKey!, consumerSecret!);
+
+  mvola.transaction.setAccessToken(data.access_token);
+  mvola.transaction.setOptions({
+    version: "1.0",
+    correlationId: v4(),
+    userLanguage: "FR",
+    userAccountIdentifier: "msisdn;0343500003",
+    partnerName: "TestMVola",
+  });
+
+  const transactionRef = v4();
+
+  const tx: TransactionRequest = {
+    amount: 1000,
+    currency: "Ar",
+    descriptionText: "test",
+    requestDate: new Date().toISOString(),
+    debitParty: [
+      {
+        key: "msisdn",
+        value: "0343500003",
+      },
+    ],
+    creditParty: [
+      {
+        key: "msisdn",
+        value: "0343500004",
+      },
+    ],
+    metadata: [
+      {
+        key: "partnerName",
+        value: "TestMVola",
+      },
+      {
+        key: "fc",
+        value: "USD",
+      },
+      {
+        key: "amountFc",
+        value: "1",
+      },
+    ],
+    requestingOrganisationTransactionReference: transactionRef,
+    originalTransactionReference: transactionRef,
+  };
+  const response = await mvola.transaction.sendPayment(tx);
+  console.log(response);
+}
+
+main();
+
 ```
 
 ## Author
