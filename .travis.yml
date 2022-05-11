@@ -1,9 +1,9 @@
 language: node_js
 
 node_js:
-  - '12.x'
-  - '16.x'
-  - '18.x'
+  - '12'
+  - '16'
+  - '18'
 
 after_success: |
   bash <(curl -s https://codecov.io/bash) &&
