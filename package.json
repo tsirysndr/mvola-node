@@ -1,6 +1,6 @@
 {
   "name": "mvola",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "The MVola Node library provides convenient access to th MVola API from applications written in server-side Javascript ",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
