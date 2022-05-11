@@ -1,6 +1,12 @@
 <h1 align="left">MVola Node.js Library</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.4-blue.svg?cacheSeconds=2592000" />
+  <a href="https://app.travis-ci.com/github/tsirysndr/mvola-node" target="_blank">
+    <img src="https://app.travis-ci.com/tsirysndr/mvola-node.svg?branch=master" />
+  </a>
+  <a href="https://codecov.io/gh/tsirysndr/mvola-node" target="_blank">
+    <img src="https://codecov.io/gh/tsirysndr/mvola-node/branch/master/graph/badge.svg?token=" />
+  </a>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.4-purple.svg?cacheSeconds=2592000" />
   <a href="https://github.com/tsirysndr/mvola-node#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
@@ -8,10 +14,7 @@
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
   <a href="https://github.com/tsirysndr/mvola-node/blob/master/LICENSE" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-green.svg" />
-  </a>
-  <a href="https://twitter.com/tsiry_sndr" target="_blank">
-    <img alt="Twitter: tsiry_sndr" src="https://img.shields.io/twitter/follow/tsiry_sndr.svg?style=social" />
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-blue.svg" />
   </a>
 </p>
 

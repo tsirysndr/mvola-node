@@ -1,0 +1,35 @@
+{
+  "amount": "10000.00",
+  "currency": "Ar",
+  "transactionReference": "636085941",
+  "transactionStatus": "completed",
+  "creationDate": "2022-05-03T18:09:10.391Z",
+  "requestDate": "2022-05-10T08:15:39.513Z",
+  "debitParty": [
+    {
+      "key": "msisdn",
+      "value": "0343500003"
+    }
+  ],
+  "creditParty": [
+    {
+      "key": "msisdn",
+      "value": "0343500004"
+    }
+  ],
+  "metadata": [
+    {
+      "key": "originalTransactionResult",
+      "value": "0"
+    },
+    {
+      "key": "originalTransactionResultDesc",
+      "value": "0"
+    }
+  ],
+  "fees": [
+    {
+      "feeAmount": "150"
+    }
+  ]
+}
