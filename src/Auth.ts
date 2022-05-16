@@ -14,7 +14,9 @@ class AuthService extends Service {
 
     const { data } = await this.client.post<AuthResponse>("/token", params, {
       headers: {
-        Authorization: `Basic ${btoa(`${consumerKey}:${consumerSecret}`)}`,
+        Authorization: `Basic ${Buffer.from(
+          `${consumerKey}:${consumerSecret}`
+        ).toString("base64")}`,
       },
     });
 
