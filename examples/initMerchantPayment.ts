@@ -52,7 +52,7 @@ async function main() {
     requestingOrganisationTransactionReference: transactionRef,
     originalTransactionReference: transactionRef,
   };
-  const response = await mvola.transaction.sendPayment(tx);
+  const response = await mvola.transaction.initMerchantPayment(tx);
   console.log(response);
 }
 

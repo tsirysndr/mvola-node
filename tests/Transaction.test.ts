@@ -37,7 +37,7 @@ describe("Merchant Pay", () => {
     );
     expect(response[0]).toEqual(expected);
   });
-  it("should send payment", async () => {
+  it("should initiate merchant payment", async () => {
     const expected = require("./fixtures/transaction_response.json");
     const service = new TransactionService(mockAxios.create() as any);
 
@@ -89,7 +89,7 @@ describe("Merchant Pay", () => {
     };
 
     const response = await Promise.all([
-      service.sendPayment(tx),
+      service.initMerchantPayment(tx),
       mockAxios.mockResponse({ data: expected }),
     ]);
 

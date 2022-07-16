@@ -21,12 +21,17 @@ class TransactionService extends Service {
     return data;
   }
 
+  // DEPRECATED
   async sendPayment(params: TransactionRequest): Promise<TransactionResponse> {
     const { data } = await this.client.post<TransactionResponse>(
       "/mvola/mm/transactions/type/merchantpay/1.0.0/",
       { ...params, amount: params.amount.toString() }
     );
     return data;
+  }
+
+  async initMerchantPayment(params: TransactionRequest): Promise<TransactionResponse> {
+    return this.sendPayment(params);
   }
 }
 
