@@ -836,6 +836,11 @@
   dependencies:
     "@types/yargs-parser" "*"
 
+"@vespaiach/axios-fetch-adapter@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@vespaiach/axios-fetch-adapter/-/axios-fetch-adapter-0.3.0.tgz#abbd23478260a317165d0c52297306af9d39bb24"
+  integrity sha512-X3U9VANu+8R4Wu/77bAUiUSqgeTelDFZeJcGZDe63DiFcPI6onjrMWrG3py/N4Qf8qCU3YLq+wO2d8V6ftYcaw==
+
 abab@^2.0.3, abab@^2.0.5:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/abab/-/abab-2.0.6.tgz#41b80f2c871d19686216b82309231cfd3cb3d291"

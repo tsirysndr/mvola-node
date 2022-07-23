@@ -1,6 +1,6 @@
 {
   "name": "mvola",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "The MVola Node library provides convenient access to th MVola API from applications written in server-side Javascript ",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/tsirysndr/mvola-node#readme",
   "dependencies": {
+    "@vespaiach/axios-fetch-adapter": "^0.3.0",
     "axios": "^0.27.2",
     "buffer": "^6.0.3",
     "qs": "^6.10.3",
