@@ -16,7 +16,7 @@ class Client {
       options.adapter = fetchAdapter;
     }
     const client = axios.create(options);
-    this.auth = new AuthService(axios.create({ baseURL }));
+    this.auth = new AuthService(axios.create(options));
     this.transaction = new TransactionService(client);
   }
 }
