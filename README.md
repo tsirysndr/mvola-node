@@ -43,7 +43,7 @@ async function main() {
     version: "1.0",
     correlationId: v4(),
     userLanguage: "FR",
-    userAccountIdentifier: "msisdn;0343500003",
+    userAccountIdentifier: "msisdn;0343500004",
     partnerName: "TestMVola",
   });
 
