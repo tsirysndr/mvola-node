@@ -6,7 +6,9 @@
   <a href="https://codecov.io/gh/tsirysndr/mvola-node" target="_blank">
     <img src="https://codecov.io/gh/tsirysndr/mvola-node/branch/master/graph/badge.svg?token=" />
   </a>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.2.0-purple.svg?cacheSeconds=2592000" />
+  <a href="https://www.npmjs.com/package/mvola" target="_blank">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.2.0-cyan.svg?cacheSeconds=2592000" />
+  </a>
   <a href="https://github.com/tsirysndr/mvola-node#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
