@@ -26,7 +26,7 @@ The MVola Node library provides convenient access to the [MVola API](https://www
 ## 🚚 Install
 
 ```sh
-yarn add mvola
+npm install mvola
 ```
 
 ## 🚀 Usage
