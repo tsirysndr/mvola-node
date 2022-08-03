@@ -9,7 +9,9 @@
   <a href="https://www.npmjs.com/package/mvola" target="_blank">
   <img alt="Version" src="https://img.shields.io/badge/version-1.2.0-cyan.svg?cacheSeconds=2592000" />
   </a>
+  <a href="https://www.npmjs.com/package/mvola" target="_blank">
   <img alt="npm" src="https://img.shields.io/npm/dm/mvola?color=%23ff00ff">
+  </a>
   <a href="https://github.com/tsirysndr/mvola-node#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
