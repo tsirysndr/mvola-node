@@ -50,6 +50,7 @@ async function main() {
     userLanguage: "FR",
     userAccountIdentifier: "msisdn;0343500004",
     partnerName: "TestMVola",
+    // callbackUrl: "YOUR CALLBACK URL"
   });
 
   const transactionRef = v4();
