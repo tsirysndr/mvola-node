@@ -12,6 +12,7 @@
   <a href="https://www.npmjs.com/package/mvola" target="_blank">
   <img alt="npm" src="https://img.shields.io/npm/dm/mvola?color=%23ff00ff">
   </a>
+  <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/min/mvola?color=%230deb99">
   <a href="https://github.com/tsirysndr/mvola-node#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
