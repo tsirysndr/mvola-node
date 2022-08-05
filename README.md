@@ -22,6 +22,9 @@
   <a href="https://github.com/tsirysndr/mvola-node/blob/master/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-blue.svg" />
   </a>
+   <a href="https://github.com/tsirysndr/mvola-node/commits/master" target="_blank">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/tsirysndr/mvola-node">
+  </a>
 </p>
 
 The MVola Node library provides convenient access to the [MVola API](https://www.mvola.mg/devportal) from applications written in server-side Javascript 
