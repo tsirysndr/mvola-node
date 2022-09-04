@@ -27,7 +27,7 @@
   </a>
 </p>
 
-<P>
+<p>
 <a href="https://www.buymeacoffee.com/tsiry">
   <img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" height="40" />
 </a>
