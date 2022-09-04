@@ -27,7 +27,11 @@
   </a>
 </p>
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/S6S1ETN14)
+<P>
+<a href="https://www.buymeacoffee.com/tsiry">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" height="40" />
+</a>
+</p>
 
 The MVola Node library provides convenient access to the [MVola API](https://www.mvola.mg/devportal) from applications written in server-side Javascript 
 
