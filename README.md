@@ -27,6 +27,8 @@
   </a>
 </p>
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/S6S1ETN14)
+
 The MVola Node library provides convenient access to the [MVola API](https://www.mvola.mg/devportal) from applications written in server-side Javascript 
 
 ## 🚚 Install
